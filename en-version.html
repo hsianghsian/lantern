@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="E7 lantern studio,chinese lantern,lantern festival,nagasaki lantern festival,yong-fu guo,lantern art">
+    <title>E7 Lantern Studio</title>
+    <link rel="icon" href="./logo2.ico" type="image/x-icon"  />
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    body{font-family: Arial, Helvetica, sans-serif;}
+    .animate {background-color: gray;width: 100%;height: 27%;position: absolute;top: 33%;z-index: 5;
+        border-radius: 10px 0px 0px 10px;
+        animation: slide-in 3s both;
+    }
+
+    @keyframes slide-in {
+    0% {
+        transform: translateX(0%);
+    }
+    40%{transform: translateX(40%);}
+    100% {
+        transform: translateX(100%);
+    }
+    }
+</style>
+<script>history.back()</script>
+<body class="body">
+    <div class="head-container">
+
+            
+        <img src="logo2.png" class="logo" width="auto" height="60px">
+        <a href="#top-page"><img src="logo3.png" class="logo3" width="auto" height="25px"></a>
+
+        <div class="nav-tag">
+            <nav>
+                <a class="ex-lan" id="a1" href="#about">ABOUT US</a>
+                <a class="ex-lan" href="#info">CONTACT US</a>
+                <a class="ex-lan" href="#news">NEWS</a>
+                <a class="ex-lan" href="gallery.html" target="_blank">GALLERY</a>
+                <a class="ex-lan" href="#recruit">JOIN US</a>
+                <a id="lan" href="index.html" target="_blank">中/En</a>
+            </nav>
+        </div>
+
+    </div>
+    
+
+    <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+        <div class="butt">
+            <a href="line://ti/p/H94tbwaCXt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="green" class="bu" d="M311 196.8v81.3c0 2.1-1.6 3.7-3.7 3.7h-13c-1.3 0-2.4-.7-3-1.5l-37.3-50.3v48.2c0 2.1-1.6 3.7-3.7 3.7h-13c-2.1 0-3.7-1.6-3.7-3.7V196.9c0-2.1 1.6-3.7 3.7-3.7h12.9c1.1 0 2.4 .6 3 1.6l37.3 50.3V196.9c0-2.1 1.6-3.7 3.7-3.7h13c2.1-.1 3.8 1.6 3.8 3.5zm-93.7-3.7h-13c-2.1 0-3.7 1.6-3.7 3.7v81.3c0 2.1 1.6 3.7 3.7 3.7h13c2.1 0 3.7-1.6 3.7-3.7V196.8c0-1.9-1.6-3.7-3.7-3.7zm-31.4 68.1H150.3V196.8c0-2.1-1.6-3.7-3.7-3.7h-13c-2.1 0-3.7 1.6-3.7 3.7v81.3c0 1 .3 1.8 1 2.5c.7 .6 1.5 1 2.5 1h52.2c2.1 0 3.7-1.6 3.7-3.7v-13c0-1.9-1.6-3.7-3.5-3.7zm193.7-68.1H327.3c-1.9 0-3.7 1.6-3.7 3.7v81.3c0 1.9 1.6 3.7 3.7 3.7h52.2c2.1 0 3.7-1.6 3.7-3.7V265c0-2.1-1.6-3.7-3.7-3.7H344V247.7h35.5c2.1 0 3.7-1.6 3.7-3.7V230.9c0-2.1-1.6-3.7-3.7-3.7H344V213.5h35.5c2.1 0 3.7-1.6 3.7-3.7v-13c-.1-1.9-1.7-3.7-3.7-3.7zM512 93.4V419.4c-.1 51.2-42.1 92.7-93.4 92.6H92.6C41.4 511.9-.1 469.8 0 418.6V92.6C.1 41.4 42.2-.1 93.4 0H419.4c51.2 .1 92.7 42.1 92.6 93.4zM441.6 233.5c0-83.4-83.7-151.3-186.4-151.3s-186.4 67.9-186.4 151.3c0 74.7 66.3 137.4 155.9 149.3c21.8 4.7 19.3 12.7 14.4 42.1c-.8 4.7-3.8 18.4 16.1 10.1s107.3-63.2 146.5-108.2c27-29.7 39.9-59.8 39.9-93.1z"/></svg></a>
+        </div>
+        <div class="topnav">
+            <a href="#home" class="active"></a>
+
+          <a href="javascript:void(0);" id="ii" class="icon" onclick="myFunction()">
+            <i id="listButton" class="fa fa-bars"></i>
+          </a>
+    </div>
+    <div id="myLinks">
+        <a class="li" href="#about" onclick="myFunction()">ABOUT US</a>
+        <a class="li" href="#news" onclick="myFunction()">NEWS</a>
+        <a class="li" href="#info" onclick="myFunction()">CONTACT US</a>
+        <a class="li" href="gallery.html" target="_blank" onclick="myFunction()">GALLERY</a>
+        <a class="li" href="#recruit" onclick="myFunction()">JOIN US</a>
+        <div class="li-bg"><img src="logo2.png"  width="auto" height="150px"></div>
+      </div>
+
+
+    <div id="top-page" class="container">
+        <div class="animate"></div>
+        <div>
+            <img src="166222.png" class="myImg" width="40%" height="auto">
+        </div>
+        <div>
+            <img src="166222.png" class="backImg" width="40%" height="auto">
+        </div>
+        <div>
+            <img src="en-title.png" class="white-title" width="30%" height="auto">
+        </div>
+        <div>
+            <img src="en-title.png" class="white-title2" width="30%" height="auto">
+        </div>
+        <div>
+            <img src="glodenCloud.png" class="cloud" width="15%" height="auto">
+        </div>
+
+        <div>
+            <img src="glodenCloud.png" class="cloud2" width="10%" height="auto">
+        </div>
+
+        <div class="slide-cover"></div>
+        <div>
+            <img src="flower.png" class="flower" width="20%" height="auto">
+        </div>
+        <div>
+            <img src="flower.png" class="f-back" width="20%" height="auto">
+        </div>
+
+        <svg viewBox="0 0 1440 800">
+            <path id="top" fill="black" fill-opacity="1" d="M 0 320 L 40 277.3 C 80 235 160 149 240 133.3 C 320 117 400 171 480 208 C 560 245 640 267 720 234.7 C 800 203 880 117 960 85.3 C 1040 53 1120 75 1200 69.3 C 1280 64 1360 32 1400 16 L 1440 0 L 1440 400 L 1400 400 C 1360 400 1280 400 1200 400 C 1120 400 1040 400 960 400 C 880 400 800 400 720 400 C 640 400 560 400 480 400 C 400 400 400 400 240 400 C 160 400 80 400 40 400 L 0 400 Z">     
+            </path>
+            
+        </svg>
+        <svg class="bottom" viewBox="0 0 1440 800">
+            <path fill="#black" fill-opacity="1" d="M0,320L40,277.3C80,235,160,149,240,133.3C320,117,400,171,480,208C560,245,640,267,720,234.7C800,203,880,117,960,85.3C1040,53,1120,75,1200,69.3C1280,64,1360,32,1400,16L1440,0L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+        </svg>
+        <svg class="top-1" viewBox="0 0 1440 800">
+            <path fill="silver" fill-opacity="1" d="M 0 320 L 40 277.3 C 80 235 160 149 240 133.3 C 320 117 400 171 480 208 C 560 245 640 267 720 234.7 C 800 203 880 117 960 85.3 C 1040 53 1120 75 1200 69.3 C 1280 64 1360 32 1400 16 L 1440 0 L 1440 400 L 1400 400 C 1360 400 1280 400 1200 400 C 1120 400 1040 400 960 400 C 880 400 800 400 720 400 C 640 400 560 400 480 400 C 400 400 400 400 240 400 C 160 400 80 400 40 400 L 0 400 Z"></path>
+            <animate attributeName="opacity" dur="2s" values="0;1;0" repeatCount="indefinite" begin="1"/>
+        </svg>
+ 
+
+
+        <svg class="top-5" viewBox="0 0 1440 800">
+            <path fill="black" fill-opacity="1" d="M 0 320 L 40 277.3 C 80 235 160 149 240 133.3 C 320 117 400 171 480 208 C 560 245 640 267 720 234.7 C 800 203 880 117 960 85.3 C 1040 53 1120 75 1200 69.3 C 1280 64 1360 32 1400 16 L 1440 0 L 1440 400 L 1400 400 C 1360 400 1280 400 1200 400 C 1120 400 1040 400 960 400 C 880 400 800 400 720 400 C 640 400 560 400 480 400 C 400 400 400 400 240 400 C 160 400 80 400 40 400 L 0 400 Z"></path>
+            
+        </svg>
+        <svg class="bot-1" viewBox="0 0 1440 800">
+            <path fill="silver" fill-opacity="1" d="M0,320L40,277.3C80,235,160,149,240,133.3C320,117,400,171,480,208C560,245,640,267,720,234.7C800,203,880,117,960,85.3C1040,53,1120,75,1200,69.3C1280,64,1360,32,1400,16L1440,0L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+            <animate attributeName="opacity" dur="2s" values="0;1;0" repeatCount="indefinite" begin="1"/>
+        </svg>
+        <svg class="bot-2" viewBox="0 0 1440 800">
+            <path fill="black" fill-opacity="1" d="M0,320L40,277.3C80,235,160,149,240,133.3C320,117,400,171,480,208C560,245,640,267,720,234.7C800,203,880,117,960,85.3C1040,53,1120,75,1200,69.3C1280,64,1360,32,1400,16L1440,0L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+            
+        </svg>
+        <svg class="addhension" viewBox="0 0 1440 800">
+            <path fill="white" fill-opacity="1" d="M 0 320 L 40 277.3 C 80 235 160 149 240 133.3 C 320 117 400 171 480 208 C 560 245 640 267 720 234.7 C 800 203 880 117 960 85.3 C 1040 53 1120 75 1200 69.3 C 1280 64 1360 32 1400 16 L 1440 0 L 1440 800 L 1400 800 C 1360 800 1280 800 1200 800 C 1120 800 1040 800 960 800 C 880 800 800 800 720 800 C 640 800 560 800 480 800 C 400 800 320 800 240 800 C 160 800 80 800 40 800 L 0 800 Z"></path>
+        </svg>
+
+
+    </div>
+    <div class="paragraph">
+        <div id="info" class="box">  
+            <div>
+                <div class="contact-rect"></div>
+                <img src="contact.png" class="cImg" >
+            </div>      
+            <div id="contact-text">
+                <div id="outside-contact">
+                    <div id="contact-h1"><h1>CONTACT US</h1></div>
+                    <div class="c-right">
+                        <div id="contact-in-text">
+                            <div>
+                                <div class="contact-svg">
+                                    <div class="c-symbol">
+                                        <a href="tel:+886-971788170"><?xml version="1.0" ?><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="red" d="M20 10.999h2C22 5.869 18.127 2 12.99 2v2C17.052 4 20 6.943 20 10.999z"/><path fill="red" d="M13 8c2.103 0 3 .897 3 3h2c0-3.225-1.775-5-5-5v2zm3.422 5.443a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a1 1 0 0 0-.086-1.391l-4.064-3.696z"/></svg></a>
+                                    </div>
+                                    <div class="c-symbol">
+                                        <a href="line://ti/p/H94tbwaCXt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="green" class="bu" d="M311 196.8v81.3c0 2.1-1.6 3.7-3.7 3.7h-13c-1.3 0-2.4-.7-3-1.5l-37.3-50.3v48.2c0 2.1-1.6 3.7-3.7 3.7h-13c-2.1 0-3.7-1.6-3.7-3.7V196.9c0-2.1 1.6-3.7 3.7-3.7h12.9c1.1 0 2.4 .6 3 1.6l37.3 50.3V196.9c0-2.1 1.6-3.7 3.7-3.7h13c2.1-.1 3.8 1.6 3.8 3.5zm-93.7-3.7h-13c-2.1 0-3.7 1.6-3.7 3.7v81.3c0 2.1 1.6 3.7 3.7 3.7h13c2.1 0 3.7-1.6 3.7-3.7V196.8c0-1.9-1.6-3.7-3.7-3.7zm-31.4 68.1H150.3V196.8c0-2.1-1.6-3.7-3.7-3.7h-13c-2.1 0-3.7 1.6-3.7 3.7v81.3c0 1 .3 1.8 1 2.5c.7 .6 1.5 1 2.5 1h52.2c2.1 0 3.7-1.6 3.7-3.7v-13c0-1.9-1.6-3.7-3.5-3.7zm193.7-68.1H327.3c-1.9 0-3.7 1.6-3.7 3.7v81.3c0 1.9 1.6 3.7 3.7 3.7h52.2c2.1 0 3.7-1.6 3.7-3.7V265c0-2.1-1.6-3.7-3.7-3.7H344V247.7h35.5c2.1 0 3.7-1.6 3.7-3.7V230.9c0-2.1-1.6-3.7-3.7-3.7H344V213.5h35.5c2.1 0 3.7-1.6 3.7-3.7v-13c-.1-1.9-1.7-3.7-3.7-3.7zM512 93.4V419.4c-.1 51.2-42.1 92.7-93.4 92.6H92.6C41.4 511.9-.1 469.8 0 418.6V92.6C.1 41.4 42.2-.1 93.4 0H419.4c51.2 .1 92.7 42.1 92.6 93.4zM441.6 233.5c0-83.4-83.7-151.3-186.4-151.3s-186.4 67.9-186.4 151.3c0 74.7 66.3 137.4 155.9 149.3c21.8 4.7 19.3 12.7 14.4 42.1c-.8 4.7-3.8 18.4 16.1 10.1s107.3-63.2 146.5-108.2c27-29.7 39.9-59.8 39.9-93.1z"/></svg></a>
+                                    </div>
+                                    <div class="c-symbol">
+                                        <a href="https://www.facebook.com/?locale=zh_TW" target="_blank"><?xml version="1.0" ?><svg  version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs12"/><g id="g5991"><rect height="512" id="rect2987" rx="64" ry="64" style="fill:#3b5998;fill-opacity:1;fill-rule:nonzero;stroke:none" width="512" x="0" y="0"/><path d="M 286.96783,455.99972 V 273.53753 h 61.244 l 9.1699,-71.10266 h -70.41246 v -45.39493 c 0,-20.58828 5.72066,-34.61942 35.23496,-34.61942 l 37.6554,-0.0112 V 58.807915 c -6.5097,-0.87381 -28.8571,-2.80794 -54.8675,-2.80794 -54.28803,0 -91.44995,33.14585 -91.44995,93.998125 v 52.43708 h -61.40181 v 71.10266 h 61.40039 v 182.46219 h 73.42707 z" id="f_1_" style="fill:#ffffff"/></g></svg></a>
+                                    </div>
+                                </div>
+                                <div class="contact-word">
+                                    <p>Technical director: YONG-FU GUO</p>
+                                    <p>Phone:0967-228038</p>
+                                    <p>No. 489-3, Section 2, Fengxing Rd,<br> Tanzi District, Taichung City,<br> Taiwan</p>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="map">
+                            <iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3638.579973059624!2d120.72112637432569!3d24.221485970530043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNo.%20489-3%E8%99%9F%2C%20Section%202%2C%20Fengxing%20Rd%2C%20Tanzi%20District!5e0!3m2!1sen!2stw!4v1714846948194!5m2!1sen!2stw" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe class="street" src="https://www.google.com/maps/embed?pb=!4v1714671912009!6m8!1m7!1sHtBarO0S3Q_0ySUI63hbNw!2m2!1d24.2214078153028!2d120.7240988289988!3f282.04!4f0!5f0.7820865974627469" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="news" class="box">
+            <div>
+                <div class="news-rect"></div>
+                <img src="news.png" class="nImg" >
+            </div>  
+            <div id="news-text">
+                <div id="outside-news">
+                    <div id="news-h1"><h1>NEWS</h1></div>
+                    
+                    <div class="n-right">
+                        <div class="video1">
+                            <iframe class="youtube1" width="400" height="250" src="https://www.youtube.com/embed/IOUlgsDIxp8?si=WI_hJpQDDKQyHyRS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div id="news-in-text">
+                            <span class="news-title">Feb-09-2024～Feb-25 <br>Nagasaki Lantern Festival</span>
+                            <p class="news-word">Over 15,000 colorful lanterns and large art objects adorn the entire city; from Chinatown and Minato Park, to Chuo Park, Meganebashi (Spectacles Bridge), Kanko-dori Arcade in Hamanomachi, and many other locations throughout the city.</p>
+                            <p class="news-point">We are very honored that our E7 Lantern Studio was invited to participate in the Nagasaki Lantern Festival and display a variety of works!</p>
+                            <p class="news-footer">Video source: USTV YOUTUBE CHANNEL 20240211 reported</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="box">
+            <div>
+                <div class="about-rect"></div>
+                <img src="about.png" class="aImg" >
+            </div>
+            <div id="about-text">
+                <div id="outside-about">
+                    <div id="about-h1"><h1>ABOUT US</h1></div>
+                    <div id="about-in-text">
+                        <p class="about-word">Are you curious about lantern art? Have you ever been fascinated by the process of making lanterns?
+                            Now, we sincerely invite you to join "E7 Lantern Studio", a creative and open halfway house.</p>
+                        <span class="about-title">who are we?</span>
+                        <p class="about-word">We are a group of people who love the art of lanterns, regardless of age, background or experience.
+                            We believe that everyone can find their own creative space here.</p>
+                        <span class="about-title">Our mission:</span>
+                        <p class="about-word">We are committed to inheriting the essence of Taiwanese lanterns and allowing this traditional craft to shine with new brilliance in modern times.
+                            We welcome friends who are employed for the second time, whether you are a retiree or an art lover,
+                            Whether you are looking for a new direction in life, you can find your place here.</p>
+                        <span class="about-title">Our Features:</span>
+                        <p class="about-word">Learning and communication: Here, you can learn the techniques of making lanterns and exchange experiences with other lantern art enthusiasts.
+                            Open Halfway House: Our doors are always open and you are welcome to walk in and share your stories and ideas at any time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="recruit" class="box">
+            <div>
+                <div class="recruit-rect"></div>
+                <img src="recruit.png" class="rImg" >
+            </div>
+            <div id="about-text">
+                <div id="outside-about">
+                    <div id="recruit-h1"><h1>JOIN US</h1></div>
+                    <div id="recruit-in-text">
+                        <p class="re-word">Dear, thank you for your interest in our lantern studio! We are looking for passionate, creative and dynamic people to join our team. Here are our recruitment instructions:</p>
+                        <span class="re-title">Position overview:</span>
+                        <p class="re-word">We are recruiting for a variety of positions, including lantern designers, production technicians, administrative assistants, and more.</p>
+                        <p class="re-word">You will have the opportunity to participate in the wonderful lantern making process and contribute to the Taiwan Lantern Festival.</p>
+                        <span class="re-title">Eligibility requirements:</span>
+                        <p class="re-word">Passionate about lantern art.</p>
+                        <p class="re-word">Good communication and teamwork skills.</p>
+                        <span class="re-title">work place:</span>
+                        <p class="re-word">No. 489-3, Section 2, Fengxing Rd,
+                            Tanzi District, Taichung City,
+                            Taiwan</p>
+                        <span class="re-title">How to apply:</span>
+                        <p class="re-word">Welcome to contact us at 0967-228038</p>
+                        <p class="re-word">
+                            We look forward to your joining and creating beautiful lantern works together!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end">
+            
+            <div class="endWord">
+                <div class="qr-symbol">
+                    <img src="qr.jpg" class="qImg" >
+                </div>
+                <div class="in-end">
+                    <h4>Technical director: YONG-FU GUO</h4>
+                    <h4>Phone:0967-228038</h4>
+                    <h4>No. 489-3, Section 2, Fengxing Rd,
+                        Tanzi District, Taichung City,
+                        Taiwan</h4>
+                    <h4>Copyright © E7 Lantern Studio</h4>
+
+                </div>
+            </div>
+            <div class="ft-bg">
+                <img src="goldenPlum.jpg" class="golden-plum" width="100%" height="100%">
+            </div>
+            
+        </div>
+
+
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+</body>
+
+</html>
